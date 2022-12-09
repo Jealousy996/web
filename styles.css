@@ -17,7 +17,7 @@ body {
 }
 
 .topbar {
-  background: #000000;
+  background: #070707;
   display: flex;
   font-size: 25px;
 }
@@ -40,7 +40,6 @@ body {
   height: auto;
   margin-top: 420px;
   display: flex;
-  justify-content: center;
   flex-direction: row;
   width: auto;
 }
@@ -49,6 +48,15 @@ body {
   margin: auto;
   display: block;
   position: relative;
+  width: 100%;
+  justify-self: center;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.butt:hover {
+  background-color: #c9828279;
 }
 
 a {
@@ -97,4 +105,10 @@ input {
 
 .reg {
   padding: 5vh;
+}
+
+@media(max-width: 418px) {
+  a {
+    font-size: large;
+  }
 }

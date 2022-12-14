@@ -3,19 +3,25 @@
   
 }
 
+html{
+  background-color: #070707;
+}
+
 body {
   list-style-type: none;
   color: #a79999;
   font-family: "Plex Sans", sans-serif;
   text-decoration: none;
-  background-color: #070707;
   width: 100%;
 }
 
 a {
   text-decoration: none;
-    color:black;
-  
+  color:white;
+}
+
+p{
+  padding: 10px;
 }
 
 .conteiner {
@@ -51,21 +57,11 @@ a {
   letter-spacing:2px
 }
 .site-footer a
-
 {
-    height: 100%;
+  height: 100%;
   color:#a79999;
 }
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
+
 .footer-links li
 {
   display:block
@@ -79,10 +75,6 @@ li {
   list-style-type: none;
 }
 
- ul {
-    padding: 0px; 
-    margin-left: 20px; 
-   }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
   color:#3366cc;
@@ -91,88 +83,36 @@ li {
 .footer-links.inline li
 {
   display:inline-block;
- 
-      
-}
-.site-footer .social-icons
-{
-  text-align:left;
 }
 
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:50px;
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
+footer{
+  background-color:black;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  min-height: calc(100vh - 80px);
 }
 
-}
-.social-icons a{
-  background-color:black
-  color: #818a91;
-  font-size: 16px;
-  display:inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+.social-icons #VK:active,
+.social-icons a:focus,
+.social-icons a:hover
 {
   color:#fff;
   background-color:#29aafe
 }
-.social-icons.size-sm a
+
+.social-icons #YouTube:active,
+.social-icons #YouTube:focus,
+.social-icons #YouTube:hover
 {
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
+  color:#fff;
+  background-color:red;
 }
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
+
+.obratka ul{
+  margin: auto;
+  padding: 10px;
 }
 
 .topbar {
@@ -228,7 +168,15 @@ li {
   background-color: #c9828279;
 }
 
+.content{
+  padding: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
+.content h6{
+  font-size: 20px;
+}
 
 .tagbar {
   margin-left: 20vh;
@@ -246,16 +194,6 @@ li {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 8vh;
-}
-
-
-
-input {
-  color: black;
-}
-
-.reg {
-  padding: 5vh;
 }
 
 @media(max-width: 800px) {

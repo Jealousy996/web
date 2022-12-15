@@ -1,14 +1,9 @@
 * {
-<<<<<<< HEAD
-  margin: 3;
-
-=======
   margin: 0;
-  
->>>>>>> parent of f17b457 (Почистил код 15.12.2022)
+
 }
 
-html{
+html {
   background-color: #070707;
 }
 
@@ -17,30 +12,18 @@ body {
   color: #a79999;
   font-family: "Plex Sans", sans-serif;
   text-decoration: none;
+  height: 100vh;
   width: 100%;
-}
-.rightpic {
-    float: right;
-    margin: 0 0 15px 5px; 
 }
 
 a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-p{
+p {
   padding: 10px;
-<<<<<<< HEAD
   font-size: large;
-  line-height: 1.2em; 
-}
-
-.mmm{
-    margin: 10px auto 20px;
-    display: block;
-=======
->>>>>>> parent of f17b457 (Почистил код 15.12.2022)
 }
 
 .conteiner {
@@ -51,102 +34,36 @@ p{
   margin: auto;
 }
 
-<<<<<<< HEAD
 h6 {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
-  margin-top: 6px;
+  margin-top: 5px;
   letter-spacing: 2px
-=======
-.site-footer
-{
-  font-size:13px;
-  line-height:17px;
- 
-  
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5;
-}
-.site-footer hr.small
-{
-  margin:0px;
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:15px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  height: 100%;
-  color:#a79999;
-}
-
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#a79999;
->>>>>>> parent of f17b457 (Почистил код 15.12.2022)
 }
 
 li {
   list-style-type: none;
 }
 
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block;
-}
-
-footer{
-  background-color:black;
-  padding-top: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-  min-height: calc(100vh - 80px);
-}
-
 .social-icons #VK:active,
-.social-icons a:focus,
-.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
+.social-icons #VK:focus,
+.social-icons #VK:hover {
+  color: #fff;
+  background-color: #29aafe
 }
 
 .social-icons #YouTube:active,
 .social-icons #YouTube:focus,
-.social-icons #YouTube:hover
-{
-  color:#fff;
-  background-color:red;
-}
-
-.obratka ul{
-  margin: auto;
-  padding: 10px;
+.social-icons #YouTube:hover {
+  color: #fff;
+  background-color: red;
 }
 
 .topbar {
   background: #070707;
   display: flex;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 #img1 {
@@ -161,14 +78,10 @@ footer{
   width: 60%;
 }
 
-<<<<<<< HEAD
 ul {
- display: block;
-    
+  padding: 0;
 }
 
-=======
->>>>>>> parent of f17b457 (Почистил код 15.12.2022)
 .toplogo {
   flex-direction: row;
   padding-left: 15px;
@@ -204,7 +117,6 @@ ul {
   background-color: #c9828279;
 }
 
-<<<<<<< HEAD
 
 
 .shapka {
@@ -229,20 +141,14 @@ footer a {
 }
 
 .content {
-  padding: 23px;
-  padding-top: 51px;
-  padding-bottom: 20px;
-  min-height: 23vh;
-
-=======
-.content{
   padding: 60px;
   padding-top: 40px;
   padding-bottom: 40px;
->>>>>>> parent of f17b457 (Почистил код 15.12.2022)
+  min-height: 40vh;
+
 }
 
-.content h6{
+h6 {
   font-size: 20px;
 }
 
